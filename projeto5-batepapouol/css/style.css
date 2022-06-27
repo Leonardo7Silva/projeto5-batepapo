@@ -1,0 +1,114 @@
+body {
+    background-color: #e5e5e5;
+    font-family: 'Roboto', sans-serif;
+}
+.topo {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    /*filter: drop-shadow(  black);*/
+}
+        .topo div{
+            height: 80px;
+            width: 85vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+                .topo div ion-icon{
+                    font-size: 50px;
+                }
+
+                .topo div ion-icon:hover {
+                    cursor: pointer;
+                }
+
+                .topo div img {
+                    cursor: pointer;
+                }
+
+.mensagens{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 100vw;
+    height: auto;
+    overflow-y: scroll;
+
+}
+
+        .msg{
+            width: 100vw;
+            height: auto;
+            min-height: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 2vw 3vw 2vw 3vw;
+            margin: 1vw 0;
+        }
+        .msg h1 {
+            font-size: 14px;
+            color: #aaaaaa;
+            margin-right: 4px;
+        }
+        .msg h2 {
+            font-size: 14px;
+            font-weight: 700;
+            margin-right: 4px;
+        }
+        .msg p {
+            font-size: 14px;
+            margin-right: 4px;
+        }
+        .log{
+            background-color: #dcdcdc;
+        }
+
+        .public{
+            background-color: #ffffff;
+        }
+        .private{
+            background-color: #ffdede;
+        }
+
+
+.baixo {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+}
+        input {
+            width: 70vw;
+            height: 30px;
+            border: none;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            padding-left: 10px;
+            
+        }
+        input::placeholder{
+            color: #000;
+            font-style: italic;
+
+        }
+
+        .baixo ion-icon{
+            font-size: 26px;
+        }
+
+        .baixo ion-icon:hover {
+            cursor: pointer;
+        }
+
